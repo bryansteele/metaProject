@@ -20,24 +20,38 @@ header > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
   max-width: 500px;
   height: auto;
 }
 nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-align: center;
+  font-size: 1.25rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav li {
-  display: inline-block;
-}
+/* nav li {
+} */
 
 section {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  /* width: 800px; */
+  border: 10px solid firebrick;
 }
 
 article {
-  flex: 1;
+  flex-basis: 100%;
 }
 
 footer {
