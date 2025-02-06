@@ -65,16 +65,30 @@ article:first-child {
   flex: 0 1 100%;
 }
 
+.promo {
+  background-image: url(assets/fine_jewlery.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 h1 {
   font-size: 4rem;
   text-align: center;
   line-height: 1.1;
   margin: 20px;
-  color: #14510b;
+  color: #a5d99d;
 
   @media (width > 700px) {
     font-size: 6rem;
   }
+}
+
+.promo p {
+  color: #c0c0c0;
+}
+
+p {
+  text-align: center;
 }
 
 h1:hover,
@@ -82,15 +96,44 @@ h1:focus-visible {
   color: #9a2bd6;
 }
 
+.watches  {
+  background-image: url(assets/watches.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.watches p {
+  color: #fff;
+}
+
+.watches h2 {
+  color: #820b89;
+}
+
+.necklaces {
+  background-image: url(assets/necklaces.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bracelets {
+  background-image: url(assets/bracelets.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 h2 {
   font-size: 3rem;
   text-align: center;
-  color: #14510b;
+  color: #000;
+  margin: 0;
 
   @media (width > 700px) {
     font-size: 4rem;
   }
 }
+
+
 
 footer img {
   display: block;
