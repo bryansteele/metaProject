@@ -23,11 +23,12 @@ body {
 }
 
 .primary-navigation ul {
+  font-size: 1.5rem;
   gap: 20px;
   list-style: none;
   text-align: center;
   margin: 25px;
-  padding: 0;
+  padding-inline-start: 0rem;
 }
 
 .primary-navigation a {
@@ -40,7 +41,6 @@ nav li {
   display: inline-block;
   width: 200px;
   height: auto;
-  font-size: 1.5rem;
 }
 
 .primary-navigation a:hover,
@@ -50,6 +50,7 @@ nav li {
 
 section {
   display: flex;
+  gap: 2rem 1rem;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -59,6 +60,7 @@ article {
   margin: 20px;
   padding: 10px;
   box-shadow: 5px 10px 18px #9a2bd6;
+  border-radius: 1rem;
 }
 
 article:first-child {
@@ -75,7 +77,8 @@ h1 {
   font-size: 4rem;
   text-align: center;
   line-height: 1.1;
-  margin: 20px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   color: #a5d99d;
 
   @media (width > 700px) {
@@ -133,34 +136,39 @@ h2 {
   }
 }
 
-
-
 footer img {
   display: block;
-  width: 350px;
+  width: 75%;
   height: auto;
 }
+
 footer {
   display: flex;
-  width: 100%;
+  margin: 1rem;
+  gap: 2rem 1rem;
 }
 
 .foot {
   flex: 1;
-  width: 100%;
   height: auto;
   text-align: center;
   color: #000;
-  padding: 20px;
 }
 
 .foot:first-child {
   padding-top: 50px;
   border-right: none;
-
+  max-width: 50%;
 }
 
 .foot:last-child {
+  padding-top: 10px;
+  margin-top: 25px;
+  border-top: #333333;
+  border-style: solid;
+  border-width: .1rem;
+  border-bottom: none;
   border-left: none;
-  padding-top: 40px;
+  border-right: none;
+  text-align: right;
 }
